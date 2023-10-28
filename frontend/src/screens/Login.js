@@ -11,16 +11,19 @@ function Login() {
 
   const handleSubmit = async (sree) => {
     sree.preventDefault();
-    const res = await fetch("http://localhost:9000/api/loginUser", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        email: credentials.email,
-        password: credentials.password,
-      }),
-    });
+    const res = await fetch(
+      "https://mern-project-hxtl.onrender.com/api/loginUser",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: credentials.email,
+          password: credentials.password,
+        }),
+      }
+    );
 
     const json = await res.json();
     console.log(json);

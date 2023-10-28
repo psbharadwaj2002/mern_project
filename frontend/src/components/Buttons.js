@@ -20,12 +20,15 @@ function Buttons() {
   const [productCategory, setProductCategory] = useState([]);
 
   const loadData = async () => {
-    let response = await fetch("http://localhost:9000/api/productData", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    let response = await fetch(
+      "https://mern-project-hxtl.onrender.com/api/productData",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
 
     response = await response.json();
     setProduct(response[0]);

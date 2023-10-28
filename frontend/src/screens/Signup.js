@@ -13,18 +13,21 @@ function Signup() {
 
   const handleSubmit = async (sree) => {
     sree.preventDefault();
-    const res = await fetch("http://localhost:9000/api/createUser", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        name: credentials.name,
-        email: credentials.email,
-        password: credentials.password,
-        location: credentials.geolocation,
-      }),
-    });
+    const res = await fetch(
+      "https://mern-project-hxtl.onrender.com/api/createUser",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: credentials.name,
+          email: credentials.email,
+          password: credentials.password,
+          location: credentials.geolocation,
+        }),
+      }
+    );
 
     const json = await res.json();
     console.log(json);

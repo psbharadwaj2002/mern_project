@@ -7,7 +7,7 @@ function MyOrders() {
 
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem("userEmail"));
-    await fetch("http://localhost:9000/api/myOrderdata", {
+    await fetch("https://mern-project-hxtl.onrender.com/api/myOrderdata", {
       // credentials: 'include',
       // Origin:"http://localhost:3000/login",
       method: "POST",
