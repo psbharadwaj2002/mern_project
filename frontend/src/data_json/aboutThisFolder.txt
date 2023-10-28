@@ -1,0 +1,1 @@
+The Data which is stored in in product.json and productCategory.json are imported to Atlas and data is fetched from atlas and that data is used

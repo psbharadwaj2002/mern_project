@@ -1,0 +1,22 @@
+[
+  { "categoryName": "smartphones" },
+  { "categoryName": "laptops" },
+  { "categoryName": "fragrances" },
+  { "categoryName": "skincare" },
+  { "categoryName": "groceries" },
+  { "categoryName": "home-decoration" },
+  { "categoryName": "furniture" },
+  { "categoryName": "tops" },
+  { "categoryName": "womens-dresses" },
+  { "categoryName": "womens-shoes" },
+  { "categoryName": "mens-shirts" },
+  { "categoryName": "mens-shoes" },
+  { "categoryName": "mens-watches" },
+  { "categoryName": "womens-watches" },
+  { "categoryName": "womens-bags" },
+  { "categoryName": "womens-jewellery" },
+  { "categoryName": "sunglasses" },
+  { "categoryName": "automotive" },
+  { "categoryName": "motorcycle" },
+  { "categoryName": "lighting" }
+]
