@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.defa79a7.css",
+    "main.js": "/static/js/main.82b63a77.js",
+    "static/media/furniture.jpg": "/static/media/furniture.f2c041fb441906de98ac.jpg",
+    "static/media/automotive.jpg": "/static/media/automotive.5bb308ee6211531b9590.jpg",
+    "static/media/fragrance.jpg": "/static/media/fragrance.5f73035a90c3f9739cc1.jpg",
+    "static/media/skincare.jpg": "/static/media/skincare.3bbfdbeb48f482f1eaa6.jpg",
+    "static/media/laptop.jpg": "/static/media/laptop.720852c1f8a0a6792d1f.jpg",
+    "static/media/sunglasses.jpg": "/static/media/sunglasses.131d2dc00a9f75b0f1fd.jpg",
+    "static/media/mobile.jpg": "/static/media/mobile.a455d026648cbc91ec90.jpg",
+    "static/media/laptop.carousel.jpeg": "/static/media/laptop.carousel.4434ad47a5e81611f9da.jpeg",
+    "static/media/mobile.carousel.jpeg": "/static/media/mobile.carousel.4fc79eb9a4700d3801bf.jpeg",
+    "static/media/lighting.jpg": "/static/media/lighting.047338fe3bc732fe8832.jpg",
+    "static/media/shoe.carousel.jpeg": "/static/media/shoe.carousel.c4fde6d3ac4a232297ed.jpeg",
+    "static/media/womens_bags.jpg": "/static/media/womens_bags.2eab3350fffe00d0eeef.jpg",
+    "index.html": "/index.html",
+    "static/media/trash.svg": "/static/media/trash.3533bf93c28289586c172997d8703057.svg",
+    "main.defa79a7.css.map": "/static/css/main.defa79a7.css.map",
+    "main.82b63a77.js.map": "/static/js/main.82b63a77.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.defa79a7.css",
+    "static/js/main.82b63a77.js"
+  ]
+}
