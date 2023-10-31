@@ -33,7 +33,8 @@ function Signup() {
     console.log(json);
 
     if (json.success) {
-      window.location.href = "https://steady-pothos-ab81dd.netlify.app/login";
+      window.location.replace =
+        "https://steady-pothos-ab81dd.netlify.app/login";
     } else {
       alert("Enter valid credentials");
     }
