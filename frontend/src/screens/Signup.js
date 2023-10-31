@@ -41,11 +41,11 @@ function Signup() {
     setCredentials({ ...credentials, [event.target.name]: event.target.value });
   };
 
-  const handleSignup = () => {
-    alert(
-      "Signup completed successfully, now click on already a user to login"
-    );
-  };
+  // const handleSignup = () => {
+  //   alert(
+  //     "Signup completed successfully, now click on already a user to login"
+  //   );
+  // };
 
   //   <label for="exampleColorInput" class="form-label">Color picker</label>
   // <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color"></input>
