@@ -120,12 +120,10 @@ function Signup() {
           </div>
 
           <div className="container" style={{ display: "flex" }}>
-            <button
-              type="submit"
-              className="m-3 btn btn-success"
-              onClick={handleSignup}
-            >
-              Submit
+            <button type="submit" className="m-3 btn btn-success">
+              <Link to="/login" className="m-3 btn btn-danger">
+                Submit
+              </Link>
             </button>
             <Link to="/login" className="m-3 btn btn-danger">
               Already a user
