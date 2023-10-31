@@ -127,7 +127,7 @@ function Signup() {
             <Link type="submit" to="/login" className="m-3 btn btn-danger">
               Submit
             </Link>
-            Submit
+
             {/* </button> */}
             <Link to="/login" className="m-3 btn btn-danger">
               Already a user
