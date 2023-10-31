@@ -11,8 +11,8 @@ function Signup() {
     geolocation: "",
   });
 
-  const handleSubmit = async (sree) => {
-    sree.preventDefault();
+  const handleSubmit = async (event) => {
+    event.preventDefault();
     const res = await fetch(
       "https://mern-project-hxtl.onrender.com/api/createUser",
       {
@@ -32,7 +32,9 @@ function Signup() {
     const json = await res.json();
     console.log(json);
 
-    if (!json.success) {
+    if (json.success) {
+      window.location.href = "https://steady-pothos-ab81dd.netlify.app/login";
+    } else {
       alert("Enter valid credentials");
     }
   };
@@ -120,15 +122,13 @@ function Signup() {
           </div>
 
           <div className="container" style={{ display: "flex" }}>
-            {/* <button
+            <button
               type="submit"
               className="m-3 btn btn-success"
-            > */}
-            <Link type="submit" to="/login" className="m-3 btn btn-danger">
+              onClick={handleSubmit}
+            >
               Submit
-            </Link>
-
-            {/* </button> */}
+            </button>
             <Link to="/login" className="m-3 btn btn-danger">
               Already a user
             </Link>
