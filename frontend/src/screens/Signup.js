@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "../index.css";
 import Navbar from "../components/Navbar";
 
@@ -10,6 +10,8 @@ function Signup() {
     password: "",
     geolocation: "",
   });
+
+  const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -33,8 +35,7 @@ function Signup() {
     console.log(json);
 
     if (json.success) {
-      window.location.replace =
-        "https://steady-pothos-ab81dd.netlify.app/login";
+      navigate("/login");
     } else {
       alert("Enter valid credentials");
     }
