@@ -36,11 +36,7 @@ function Signup() {
 
     // json.success
     if (!json.success) {
-      return (
-        <div class="alert alert-danger" role="alert">
-          A simple danger alert—check it out!
-        </div>
-      );
+      return alert("Enter valid credentials");
     } else {
       navigate("/login");
     }
