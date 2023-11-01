@@ -9,7 +9,7 @@ const port = process.env.PORT;
 app.use((request, response, next) => {
   response.setHeader(
     "Access-Control-Allow-Origin",
-    "https://steady-pothos-ab81dd.netlify.app"
+    "https://steady-pothos-ab81dd.netlify.app, http://localhost:3000"
   );
   response.header(
     "Access-Control-Allow-Headers",
