@@ -34,10 +34,11 @@ function Signup() {
     const json = await res.json();
     console.log(json);
 
-    if (json.success) {
-      navigate("/login");
-    } else {
+    // json.success
+    if (!json.success) {
       alert("Enter valid credentials");
+    } else {
+      navigate("/login");
     }
   };
 
