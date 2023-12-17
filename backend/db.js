@@ -9,7 +9,6 @@ const mongoDB = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    console.log("App Connected to Database successfully");
 
     const fetched_product_data = await mongoose.connection.db
       .collection("products")
