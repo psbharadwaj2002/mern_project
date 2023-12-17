@@ -23,7 +23,7 @@ const mongoDB = async () => {
     global.products = fetched_product_data;
     global.product_categories = fetched_product_category_data;
   } catch (error) {
-    console.error(`Error Message: ${error.message}`);
+    response.status(500).send("Server Error: " + error.message);
   }
 };
 

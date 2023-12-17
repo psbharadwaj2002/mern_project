@@ -34,7 +34,6 @@ router.post(
         location: request.body.location,
       }).then(response.json({ success: true }));
     } catch (error) {
-      console.error(`Error Message: ${error.message}`);
       response.json({ success: false });
     }
   }
@@ -71,8 +70,6 @@ router.post(
         userData.password
       );
 
-      console.log(passwordCompare);
-
       if (!passwordCompare) {
         return response.status(400).json({ error: "Wrong Password" });
       }
@@ -87,7 +84,6 @@ router.post(
 
       return response.json({ success: true, authToken: authToken });
     } catch (error) {
-      console.error(`Error Message: ${error.message}`);
       response.json({ success: false });
     }
   }

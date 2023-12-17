@@ -35,7 +35,6 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  console.log("Success");
   res.status(200).send("hello world");
 });
 
@@ -46,6 +45,5 @@ app.use("/api", require("./routes/DisplayData.route"));
 app.use("/api", require("./routes/OrderData.route"));
 
 app.listen(port, async () => {
-  console.log(`Listening on Port: ${port}`);
   mongoDB();
 });
