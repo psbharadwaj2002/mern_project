@@ -1,5 +1,5 @@
 // import { reduce } from "lodash";
-import { indexOf } from "lodash";
+// import { indexOf } from "lodash";
 import React, { createContext, useContext, useReducer } from "react";
 
 const CartStateContext = createContext();

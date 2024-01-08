@@ -1,0 +1,46 @@
+@media screen and (max-width: 480px) {
+  #carousel .form-control {
+    width: 100px;
+  }
+  .carousel-item img {
+    height: 200px;
+  }
+  .buttons {
+    padding-top: 15px;
+  }
+  .button {
+    font-size: 13px;
+  }
+  .button img {
+    width: 100px;
+    height: 80px;
+  }
+  .card {
+    height: 400px !important;
+    width: 14rem !important;
+  }
+  .card img {
+    height: 100px !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .card .title {
+    font-size: 15px !important;
+  }
+  .card .description {
+    font-size: 10px;
+  }
+  .card .qty,
+  .card .price {
+    font-size: 14px !important;
+  }
+  .card select {
+    width: 30px !important;
+    height: 25px !important;
+  }
+  .card button {
+    width: 100px !important;
+    font-size: 12px !important;
+    margin-left: 45px !important;
+  }
+}/*# sourceMappingURL=styles.css.map */
