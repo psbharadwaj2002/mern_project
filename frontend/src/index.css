@@ -132,7 +132,7 @@ code {
 input{
   max-width: 400px;
   min-width: 400px;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 label{
@@ -146,4 +146,31 @@ label{
 
 .form-control{
   color: black;
+}
+
+@media screen and (max-width: 480px) {
+  input{
+    /* position: absolute; */
+    max-width: 200px;
+    min-width: 200px;
+    height: 30px;
+    font-size: 10px !important;
+    color: black !important;
+  }
+
+  button{
+    width: 90px;
+    height: 30px;
+    font-size: 10px !important;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .form-inline{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: -1px;
+    /* left: -50px; */
+  }
 }

@@ -44,16 +44,20 @@ function Buttons() {
         id="carouselExampleControls"
         className="carousel slide"
         data-bs-ride="carousel"
-        style={{ objectFit: "contain !important" }}
+        style={{
+          objectFit: "contain !important",
+          // position: "relative",
+          paddingBotton: "10px",
+        }}
       >
         <div className="carousel-inner" id="carousel">
           <div className="carousel-caption" style={{ zIndex: "10" }}>
             <div
-              className="form-inline justify-content-center"
+              className="form-inline justify-content-center from"
               style={{ display: "flex" }}
             >
               <input
-                className="form-control mr-sm-2 "
+                className="form-control mr-sm-2"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
@@ -79,7 +83,7 @@ function Buttons() {
             <img src={mobileCarousel} className="d-block w-100" alt="..." />
           </div>
         </div>
-        <button
+        {/* <button
           className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleControls"
@@ -102,7 +106,7 @@ function Buttons() {
             aria-hidden="true"
           ></span>
           <span className="visually-hidden">Next</span>
-        </button>
+        </button> */}
       </div>
 
       {/***********************************************************  BUTTONS ********************************************************/}
